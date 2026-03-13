@@ -1,1 +1,100 @@
-# note
+# 笔记目录
+
+## 目录结构
+
+### openclaw
+
+- **01-installation.md**: OpenClaw 本地安装指南
+  - 系统要求
+  - 安装方式（npm 全局安装、一键脚本安装）
+- **02-docker-deployment.md**: OpenClaw Docker 部署指南
+  - docker-compose 快速启动
+  - 镜像变体
+  - 挂载目录
+  - 端口映射
+- **03-initial-configuration.md**: OpenClaw 首次配置指南
+  - Gateway 认证设置
+  - 模型选择与 API Key 配置
+  - 版本更新
+  - 诊断检查
+- **04-channel-overview.md**: OpenClaw 渠道概览
+  - 统一接入流程
+  - 新手推荐排序
+  - 详细平台推荐梯队
+- **05-platform-integration.md**: OpenClaw 平台接入指南
+  - 国际平台接入（Telegram）
+  - 国内平台接入（QQ、飞书、钉钉、企业微信）
+- **06-remote-access.md**: OpenClaw 远程访问指南
+  - Tailscale Serve / Funnel（推荐方案）
+  - SSH 端口转发（最通用的方案）
+  - Dashboard Web UI
+- **07-clawhub-marketplace.md**: OpenClaw ClawHub 技能市场
+  - 市场概况
+  - 安装与搜索
+  - 技能分类 Top 10
+- **08-skills-working-principle.md**: OpenClaw Skills 工作原理
+  - 三层优先级
+  - Skill 加载过程
+  - ClawHub 注册表
+- **09-top-skills.md**: OpenClaw 热门 Skills 推荐
+  - 必装 Top 10
+  - 内置55个技能分类一览
+  - 实用建议
+- **10-custom-skill-guide.md**: OpenClaw 自建 Skill 指南
+  - 目录结构
+  - SKILL.md 格式示例
+  - 安装方式
+  - 分享到 ClawHub
+- **11-model-providers.md**: OpenClaw 模型提供商总览
+  - 支持的模型提供商一览
+  - 配置核心概念
+- **12-international-models.md**: OpenClaw 国际模型配置
+  - Anthropic Claude
+  - OpenAI GPT
+  - Google Gemini
+- **13-chinese-models.md**: OpenClaw 国产模型配置
+  - DeepSeek
+  - 智谱GLM
+  - 通义千问 Qwen
+  - 豆包 Doubao
+  - Kimi（月之暗面）
+  - 百度文心
+- **14-local-models.md**: OpenClaw 本地模型与推荐方案
+  - Ollama
+  - LM Studio
+  - 推荐本地模型
+  - 五套推荐方案
+- **15-configuration-cheatsheet.md**: OpenClaw 配置要点速查
+- **16-security-model.md**: OpenClaw 安全模型
+  - 默认不信任
+  - 群组沙箱模式
+  - 工具访问控制
+  - Gateway认证要求
+- **17-cost-control.md**: OpenClaw 成本控制
+  - 为什么成本会失控
+  - Token优化策略：Fallback链
+  - 预算限制设置
+  - 本地模型：完全免费方案
+  - 成本优化推荐方案
+- **18-lobster-culture.md**: OpenClaw 养虾文化
+  - 为什么叫「养虾」
+  - Moltbook: AI Agent的社交网络
+  - 热门玩法
+  - 关于成本的现实警告
+- **19-china-ecosystem.md**: OpenClaw 国内生态
+  - 社区规模
+  - openclaw-china 插件
+  - 主流部署方式
+  - 国内教程资源
+- **20-command-cheatsheet.md**: OpenClaw 命令速查表
+  - 安装与更新
+  - 日常使用
+  - 插件管理
+  - 模型认证
+  - 聊天命令
+  - Docker部署
+- **21-resource-links.md**: OpenClaw 资源链接
+  - 官方资源
+  - 社区资源
+  - 国内资源
+  - 教程资源
