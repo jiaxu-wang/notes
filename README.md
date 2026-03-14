@@ -98,3 +98,9 @@
   - 社区资源
   - 国内资源
   - 教程资源
+- **22-vm-installation.md**: OpenClaw 虚拟机安装指南
+  - 系统准备
+  - 安装 Node.js 22
+  - 安装 OpenClaw
+  - 初始化配置指引
+  - 设置 systemd 后台服务
